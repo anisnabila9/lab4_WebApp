@@ -1,0 +1,153 @@
+
+body,article{
+   align-items: center;
+   margin-left: 3.5em;
+   margin-right: 3.5em;
+   background-color: #111;
+}
+
+footer {
+  margin-top: 1em;
+  background-color: #e7e7e7;
+}
+
+button{
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgb(191, 245, 245);
+  color: rgb(35, 11, 11);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #111;
+}
+
+button:active {
+  transform: scale(0.95); 
+}
+
+h1,h2,h3{
+   color: aliceblue;
+}
+
+h3{
+   margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+div#topHeaderRow Ul {
+  font-size: 0.9em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: #111;
+  background-color: rgb(202, 236, 225)
+}
+
+div#topHeaderRow li {
+  float: right;
+}
+
+div#topHeaderRow li a {
+  display: block;
+  color: rgb(44, 32, 32);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div#topHeaderRow li a:hover {
+  background-color: #efefef;
+}
+
+div#logoRow {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  justify-content: space-between;
+}
+
+label,
+#logoRow input,
+#logoRow button {
+  margin-right: 0.5em; /* Adjust margin as needed */
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+div#mainNavigationRow ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(226, 241, 236)
+}
+
+div#mainNavigationRow li {
+  float: left;
+}
+
+div#mainNavigationRow li a {
+  display: block;
+  color: rgb(25, 24, 24);
+  text-alrgb(25, 25, 25)center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div#mainNavigationRow li a:hover {
+  background-color: #7c7575;
+}
+
+#copyrightRow {
+  background-color: #3a3a3a;
+}
+
+.grandparents{
+   display: flex;
+   color: #e7e7e7;
+   background-color: red;
+}
+
+.parents {
+   background-color: blue;
+}
+
+.mother{
+   display: flex;
+   gap: 3em;
+   background-color: orange;
+}
+
+.kids3{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.box-cart{
+  border: 3px solid rgb(200, 229, 255);
+  padding: 10px;
+  width: 220px; 
+  margin: 20px; 
+}  
+
+.price {
+}
+
+.similarTitle {
+}
+
+.cartText {
+}
+
+.tight-form-group {
+}

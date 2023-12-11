@@ -1,0 +1,138 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+
+h1,
+h3,
+p,
+body,
+div {
+  font-family: Tahoma, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 1.8em;
+  margin: 0.25em 30 0.25em 0;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin: 1em 0.5em 1em 0.5em;
+  padding-right: 5em;
+}
+
+p,
+body {
+  font-size: 0.9em;
+  align-items: center;
+}
+
+p {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  background-color: rgb(208, 208, 210);
+  color: rgb(33, 67, 97);
+}
+
+body {
+  background-color: rgb(230, 225, 225);
+}
+
+article {
+  background-color: #eed3d3;
+  margin: 8em;
+  padding: 1em;
+}
+
+figure {
+  float: left;
+  position: relative;
+  margin-top: 1em;
+}
+figcaption {
+  width: 140px;
+  background-color: black;
+  color: white;
+  height: 20px;
+  position: absolute;
+  top: 120px;
+  left: 0px;
+  padding: 5px;
+  opacity: 0.7;
+}
+.overlayed {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.right {
+  float: right;
+  margin-right: 0.5em;
+  margin-top: -0.5em;
+}
+
+.entry {
+  overflow: auto;
+  border-top: 1pt solid #ff8800;
+  margin-top: 2em;
+  display: flex;
+  gap: 2em;
+}
+
+.linkbutton {
+  background-color: #4c3214;
+  color: white;
+  text-decoration: none;
+  font-size: 0.75em;
+  display: block;
+  padding: 5px;
+}
+
+footer {
+  background-color: #e3b1b1;
+  color: #333131;
+  display: flex;
+  justify-content: space-between;
+}
+footer h2 {
+  color: #0c0c0c;
+  margin-top: 2em;
+}
+
+.footer-related {
+  border-top: 1pt solid #523616;
+  flex: 0 1 50%;
+  margin: 3em;
+  margin-bottom: 3em;
+  float: left;
+  padding-right: 5em;
+  align-content: stretch;
+}
+.footer-section {
+  flex: 1 1 auto;
+
+  border-top: 1pt solid #523616;
+  margin: 3em;
+  margin-left: 3em;
+}
+.footer-related img {
+  margin: 3px;
+  height: 60px;
+  width: 60px;
+}
